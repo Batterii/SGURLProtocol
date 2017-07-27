@@ -329,7 +329,7 @@ typedef enum {
                 NSError *error = [NSError errorWithDomain:@"org.graetzer.http"
                                                      code:407
                                                  userInfo:@{NSLocalizedDescriptionKey:@"Unable to create authentication challenge"}];
-                [self.client URLProtocol:self didFailWithError:error];
+                //[self.client URLProtocol:self didFailWithError:error];
             }
         }
         
